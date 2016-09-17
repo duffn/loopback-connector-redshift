@@ -7,4 +7,4 @@
 var SG = require('strong-globalize');
 SG.SetRootDir(__dirname);
 
-module.exports = require('./lib/postgresql.js');
+module.exports = require('./lib/redshift.js');
