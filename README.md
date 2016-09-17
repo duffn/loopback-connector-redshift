@@ -36,8 +36,8 @@ manually tested all of the checked REST API methods and have confirmed them as w
 - [x] DELETE /model/{id}
 - [x] GET /model/{id}/exists
 - [x] POST /model/{id}/replace
-- [] GET /model/change-stream
-- [] POST /model/change-stream
+- [ ] GET /model/change-stream
+- [ ] POST /model/change-stream
 - [x] GET /model/count
 - [x] GET /model/findOne
 - [x] POST /model/replaceOrCreate
