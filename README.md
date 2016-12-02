@@ -4,12 +4,12 @@ The Redshift Connector module for for [loopback-datasource-juggler](http://docs.
 This is based up the [loopback-connector-postgresql](PostgreSQL Connector) for LoopBack with updates
 that make the connector usable with [Redshift](http://docs.aws.amazon.com/redshift/latest/mgmt/welcome.html).
 
-**This connector is in the early stages of development and not all features work.** 
+**This connector is in the early stages of development and not all features work.**
 
 ## Connector settings
 
 The connector can be configured using the following settings from the data source.
-* url: The URL to the database, such as 'postgres://test:mypassword@mycluster.abc123.us-east-1.redshift.amazonaws.com:5439/dev'
+* url: The URL to the database, such as `postgres://test:mypassword@mycluster.abc123.us-east-1.redshift.amazonaws.com:5439/dev`
 * host or hostname: The host name or ip address of the Redshift DB server
 * port: The port number of the Redshift DB server
 * username or user: The user name to connect to the Redshift DB
@@ -47,8 +47,8 @@ manually tested all of the checked REST API methods and have confirmed them as w
 ## Discovery and Migration
 
 Most of the discovery and migration code is still from the original PostgreSQL connector and
-therefore, probably doesn't work. I've updated a few portions of the code, but 
-the only function that I've tried so far is `autoMigrate` 
+therefore, probably doesn't work. I've updated a few portions of the code, but
+the only function that I've tried so far is `autoMigrate`
 and this worked with the built-in LoopBack tables. The rest will be updated in time.
 
 ## Tests
